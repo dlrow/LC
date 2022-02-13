@@ -1,0 +1,16 @@
+Questions
+Kth Largest Element in an Array
+Top K Frequent Elements
+Kth Largest Element in a Stream
+Last Stone Weight
+Furthest Building You Can Reach
+
+A Heap is a special type of binary tree. A heap is a binary tree that meets the following criteria:
+
+Is a complete binary tree;
+The value of each node must be no greater than (or no less than) the value of its child nodes.
+A Heap has the following properties:
+
+Insertion of an element into the Heap has a time complexity of O(log N)
+Deletion of an element from the Heap has a time complexity of O(log N)
+The maximum/minimum value in the Heap can be obtained with O(1) time complexity.

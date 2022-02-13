@@ -23,8 +23,9 @@ public class MaxHeap {
     // Function to add an element
     public void add(int element) {
         realSize++;
-        // If the number of elements in the Heap exceeds the preset heapSize
-        // print "Added too many elements" and return
+        /* If the number of elements in the Heap exceeds the preset heapSize
+         print "Added too many elements" and return
+        */
         if (realSize > heapSize) {
             System.out.println("Added too many elements!");
             realSize--;
